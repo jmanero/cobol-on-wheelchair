@@ -11,6 +11,14 @@ Things you'll need to run _COBOL on Wheelchair_:
 * Ability to run cgi-bin on Apache server
 
 
+TL;DL READING ISN'T DEVOPS
+--------------------------
+
+```ruby
+bundle install
+ulimit -n 1024; VAGRANT_I_KNOW_WHAT_IM_DOING_PLEASE_BE_QUIET=true bundle exec vagrant up
+```
+
 Installation
 -------------
 
